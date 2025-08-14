@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Forgot Password - Student App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f6ff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header, footer {
+      background-color: #003366;
+      color: white;
+      padding: 15px 0;
+    }
+
+    img {
+      margin-top: 20px;
+    }
+
+    h1, h2 {
+      color: #003366;
+    }
+
+    .container {
+      background-color: white;
+      padding: 30px;
+      margin: 30px auto;
+      width: 400px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    }
+
+    input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      margin: 15px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #003366;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0055aa;
+    }
+
+    a {
+      text-decoration: none;
+      color: #003366;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer p {
+      margin: 10px 0;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <center>
+    <img src="charusat logo.jpg" alt="Charusat Logo" width="700" height="90">
+    <h1>Welcome to the Student Portal</h1>
+  
+
+  <div class="container">
+    <h2>Reset Password</h2>
+    <form action="reset-link.html" method="GET">
+      <input type="email" name="email" required />
+      <button type="submit">Send Reset Link</button>
+    </form>
+    <p><a href="login.html">Back to Login</a></p>
+  </div>
+  </center>
+  <!-- Footer -->
+  <footer>
+    <center>
+      <p>&copy; 2025 CHARUSAT University. All rights reserved.</p>
+    </center>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Courses</title>
+  <style>
+    :root {
+      --primary: #003366;
+      --secondary: #e1e9f0;
+      --white: #ffffff;
+      --gray-light: #f2f2f2;
+      --highlight: #007acc;
+      --radius: 10px;
+      --shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fdfefe;
+      color: #333;
+    }
+
+    header {
+      background-color: var(--primary);
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    nav {
+      background-color: var(--secondary);
+      padding: 12px 0;
+      font-size: 16px;
+      text-align: center;
+    }
+
+    nav a {
+      color: var(--primary);
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+
+    table {
+      border-collapse: collapse;
+      width: 90%;
+      max-width: 900px;
+      background-color: #ffffff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    th {
+      background-color: #003366;
+      color: white;
+      padding: 12px;
+      text-align: left;
+    }
+
+    td {
+      padding: 12px;
+      border-bottom: 1px solid #ccc;
+    }
+
+    a {
+      color: #003366;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: #003366;
+      color: white;
+      padding: 15px 0;
+      text-align: center;
+    }
+
+    hr {
+      border: none;
+      height: 2px;
+      background-color: #ccc;
+      width: 90%;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <center>
+      <img src="charusat logo.jpg" alt="Charusat Logo" width="700" height="90" />
+      <h1>CHARUSAT Student Portal</h1>
+      <h2>Courses Page</h2>
+    </center>
+  </header>
+
+  <br>
+
+  <!-- Main Content -->
+  <main>
+    <center>
+      <h2>My Enrolled Courses</h2>
+      <p>Below is the list of courses as per your timetable:</p>
+
+      <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+          <th>Course Code</th>
+          <th>Course Title</th>
+          <th>Instructor</th>
+          <th>Credits</th>
+        </tr>
+        <tr>
+          <td>CSE101</td>
+          <td>Introduction to Programming</td>
+          <td>Dr. Patel</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>MTH102</td>
+          <td>Calculus and Linear Algebra</td>
+          <td>Prof. Shah</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>PHY103</td>
+          <td>Physics for Engineers</td>
+          <td>Dr. Mehta</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>ENG104</td>
+          <td>Communication Skills</td>
+          <td>Ms. Desai</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>CSE105</td>
+          <td>Data Structures</td>
+          <td>Dr. Sharma</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>EEE106</td>
+          <td>Basic Electrical Engineering</td>
+          <td>Prof. Raval</td>
+          <td>3</td>
+        </tr>
+      </table>
+
+      <br><br>
+      <p>For timetable details, please visit the <a href="schedule.html">Timetable Page</a>.</p>
+    </center>
+  </main>
+
+  <br><hr><br>
+
+  <!-- Footer -->
+  <footer>
+    <center>
+      <p>&copy; 2025 CHARUSAT University. All rights reserved.</p>
+    </center>
+  </footer>
+
+</body>
+</html>

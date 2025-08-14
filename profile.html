@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Profile</title>
+  <style>
+    :root {
+      --primary: #003366;
+      --secondary: #e1e9f0;
+      --white: #ffffff;
+      --gray-light: #f2f2f2;
+      --highlight: #007acc;
+      --radius: 10px;
+      --shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f6ff;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+      background-color: var(--primary);
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+header img {
+      max-width: 100%;
+      height: auto;
+    }
+
+nav {
+      background-color: var(--secondary);
+      padding: 12px 0;
+      font-size: 16px;
+      text-align: center;
+    }
+
+nav a {
+      color: var(--primary);
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+nav a:hover {
+      text-decoration: underline;
+    }
+
+main {
+      padding: 40px 20px;
+    }
+
+h1 {
+  margin-top: 10px;
+  color: #003366;
+}
+
+h2 {
+  color: #002244;
+  margin-bottom: 10px;
+}
+
+form {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+input[type="text"],
+input[type="date"] {
+  padding: 8px 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+input[type="radio"] {
+  margin-left: 10px;
+}
+
+label {
+  font-weight: 500;
+  color: #333;
+}
+
+button[type="submit"] {
+  background-color: #003366;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0055aa;
+}
+
+footer {
+  background-color: #003366;
+  color: white;
+  padding: 15px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+  </style>
+</head>
+<body>
+  <center>
+    <img src="charusat logo.jpg" alt="Charusat Logo" width="700" height="90">
+    <h1>Welcome to the Student Portal</h1>
+  </center>
+  <div style="display: flex; flex-direction: column; align-items: center;">
+    <h2>My Profile</h2><center>
+    <form action="dashboard-student.html" method="get" style="width: 100%; max-width: 600px;">
+  <div style="display: flex; flex-direction: column; gap: 15px;">
+
+    <div>
+      <label for="fname">First Name:</label>
+      <input type="text" id="fname" required />
+    </div>
+
+    <div>
+      <label for="lname">Last Name:</label>
+      <input type="text" id="lname" required />
+    </div>
+
+    <div>
+      <label for="studentid">Student ID:</label>
+      <input type="text" id="studentid" required />
+    </div>
+
+    <div>
+      <label for="mother">Mother Name:</label>
+      <input type="text" id="mother" required />
+    </div>
+
+    <div>
+      <label for="father">Father Name:</label>
+      <input type="text" id="father" required />
+    </div>
+
+    <div>
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" required />
+    </div>
+
+    <div>
+      <label>Gender:</label>
+      <input type="radio" name="gender" id="male" /><label for="male"> Male</label>
+      <input type="radio" name="gender" id="female" /><label for="female"> Female</label>
+      <input type="radio" name="gender" id="other" /><label for="other"> Other</label>
+    </div>
+
+    <div>
+      <label for="address">Address:</label>
+      <input type="text" id="address" required />
+    </div>
+
+    <div>
+      <label for="city">City:</label>
+      <input type="text" id="city" required />
+    </div>
+
+    <div>
+      <label for="state">State:</label>
+      <input type="text" id="state" required />
+    </div>
+
+    <div>
+      <label for="pincode">Pincode:</label>
+      <input type="text" id="pincode" required />
+    </div>
+
+    <div>
+      <label for="dept">Department Name:</label>
+      <input type="text" id="dept" required />
+    </div>
+
+    <div>
+      <label for="idnumber">ID Number:</label>
+      <input type="text" id="idnumber" required />
+    </div>
+
+  </div>
+
+  <!-- Centered Submit Button -->
+  <div style="text-align: center; margin-top: 20px;">
+    <button type="submit">Submit</button>
+  </div>
+</form></center>
+
+    
+    
+
+  </div>
+  <footer>
+    <center>
+      <p>&copy; 2025 CHARUSAT University. All rights reserved.</p>
+    </center>
+  </footer>
+</body>
+</html>
+
